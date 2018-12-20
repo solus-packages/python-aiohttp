@@ -1,0 +1,29 @@
+name       : python-aiohttp
+version    : 3.4.4
+release    : 1
+source     :
+    - https://github.com/aio-libs/aiohttp/archive/v3.4.4.tar.gz : 391359ead596fa6aa78072437a63581f005629e403da9ab21615bc89d38b5bbe
+license    : Apache-2.0
+component  : programming.python
+summary    : Asynchronous HTTP client/server framework for asyncio and Python
+description: |
+    Asynchronous HTTP client/server framework for asyncio and Python
+builddeps  :
+    - cython
+    - python-async_timeout
+    - python-chardet
+    - python-idna_ssl
+    - python-multidict
+    - python-typing
+    - python-yarl
+rundeps    :
+    - python-async_timeout
+    - python-chardet
+    - python-idna_ssl
+    - python-multidict
+    - python-typing
+    - python-yarl
+build      : |
+    %python3_setup
+install    : |
+    %python3_install
