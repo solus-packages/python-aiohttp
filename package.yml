@@ -1,8 +1,8 @@
 name       : python-aiohttp
-version    : 3.4.4
-release    : 1
+version    : 3.5.4
+release    : 2
 source     :
-    - https://github.com/aio-libs/aiohttp/archive/v3.4.4.tar.gz : 391359ead596fa6aa78072437a63581f005629e403da9ab21615bc89d38b5bbe
+    - https://github.com/aio-libs/aiohttp/archive/v3.5.4.tar.gz : 9385ff2ea20249be9119236b3367356465cb92dc55b463d12239c7cf36024bba
 license    : Apache-2.0
 component  : programming.python
 summary    : Asynchronous HTTP client/server framework for asyncio and Python
