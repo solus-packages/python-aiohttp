@@ -1,8 +1,8 @@
 name       : python-aiohttp
-version    : 3.5.4
-release    : 2
+version    : 3.6.2
+release    : 3
 source     :
-    - https://github.com/aio-libs/aiohttp/archive/v3.5.4.tar.gz : 9385ff2ea20249be9119236b3367356465cb92dc55b463d12239c7cf36024bba
+    - https://github.com/aio-libs/aiohttp/releases/download/v3.6.2/aiohttp-3.6.2.tar.gz : 259ab809ff0727d0e834ac5e8a283dc5e3e0ecc30c4d80b3cd17a4139ce1f326
 license    : Apache-2.0
 component  : programming.python
 summary    : Asynchronous HTTP client/server framework for asyncio and Python
@@ -27,3 +27,6 @@ build      : |
     %python3_setup
 install    : |
     %python3_install
+#check      : |
+#    requires pytest-xdist to be packaged
+#    %python3_test
